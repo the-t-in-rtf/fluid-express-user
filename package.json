@@ -23,7 +23,7 @@
     "gpii-handlebars": "^1.0.1",
     "gpii-json-schema": "1.0.1-dev.20170504T114351Z.4cef9db",
     "infusion": "3.0.0-dev.20170322T234120Z.278de35",
-    "kettle": "1.5.0",
+    "kettle": "1.6.0",
     "marked": "0.3.6",
     "nodemailer": "4.0.1",
     "nodemailer-smtp-transport": "2.7.4",
