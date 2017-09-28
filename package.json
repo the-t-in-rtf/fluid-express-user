@@ -4,7 +4,9 @@
   "description": "A series of Fluid components to provide simple user management.",
   "main": "src/js/index.js",
   "scripts": {
-    "test": "node node_modules/istanbul/lib/cli.js cover tests/all-tests.js"
+    "test": "node node_modules/istanbul/lib/cli.js cover tests/all-tests.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "dependencies": {
     "foundation-sites": "6.3.1",
     "gpii-binder": "1.0.2",
-    "gpii-express": "1.0.7",
+    "gpii-express": "1.0.10",
     "gpii-handlebars": "^1.0.1",
     "gpii-json-schema": "1.0.1-dev.20170504T114351Z.4cef9db",
     "infusion": "3.0.0-dev.20170322T234120Z.278de35",
@@ -27,7 +29,8 @@
     "marked": "0.3.6",
     "nodemailer": "4.0.1",
     "nodemailer-smtp-transport": "2.7.4",
-    "request": "2.81.0"
+    "request": "2.81.0",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "cookie": "0.3.1",
@@ -44,5 +47,6 @@
     "mailparser": "0.6.2",
     "node-jqunit": "1.1.4",
     "pagedown": "1.1.0"
-  }
+  },
+  "snyk": true
 }
